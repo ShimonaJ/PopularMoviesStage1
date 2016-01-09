@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="Sort Movies By"
+        android:key="@string/sort_pref_key"
+        android:dialogTitle="@string/user_preference"
+android:entryValues="@array/pref_sortby_values" android:defaultValue="@string/pref_sortby_defaultvalue"
+        android:entries="@array/pref_sortby_keys"></ListPreference>
+</PreferenceScreen>

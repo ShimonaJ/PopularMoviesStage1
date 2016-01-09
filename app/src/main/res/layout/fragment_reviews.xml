@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="16dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_detail"
+    android:layout_height="match_parent" tools:context="app.com.example.popularmoviesstage1.ReviewFragment">
+    <!--<android.support.v7.widget.RecyclerView android:padding="5dp"-->
+        <!--android:id="@+id/reviews_listing"-->
+        <!--android:scrollbars="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+    <GridView android:layout_width="match_parent" android:id="@+id/reviews_listing"
+        android:layout_height="match_parent" android:gravity="center"
+        android:numColumns="1"  android:horizontalSpacing="0dp" android:verticalSpacing="5dp"
+        />
+</LinearLayout>
